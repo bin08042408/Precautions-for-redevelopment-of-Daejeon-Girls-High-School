@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대전여자고등학교 재개발 지역 주의사항</title>
+    <style>
+        #cautionList img {
+            width: 150px; /* 이미지의 너비를 조정합니다. */
+            height: 150px; /* 이미지의 높이를 조정합니다. */
+            border-radius: 50%; /* 이미지를 동그랗게 만듭니다. */
+            margin-right: 20px; /* 이미지와 텍스트 사이의 간격을 조정합니다. */
+            margin-bottom: 20px; /* 각 주의사항 항목 사이의 간격을 조정합니다. */
+            display: inline-block; /* 이미지와 텍스트를 가로로 정렬합니다. */
+            vertical-align: middle; /* 이미지와 텍스트를 세로로 가운데 정렬합니다. */
+        }
+        #cautionList li {
+            margin-bottom: 20px; /* 각 주의사항 항목 사이의 간격을 조정합니다. */
+            padding: 10px; /* 주의사항 항목의 패딩을 추가합니다. */
+            background-color: #FFD700; /* 배경색을 노란색으로 설정합니다. */
+            border-radius: 20px; /* 주의사항 항목을 더 동글동글하게 만듭니다. */
+        }
+        ul {
+            list-style: none; /* 리스트 스타일을 제거합니다. */
+            padding: 0; /* 리스트의 내부 여백을 제거합니다. */
+        }
+        #cautionList p {
+            color: #000000; /* 주의사항 텍스트의 색상을 주황색으로 설정합니다. */
+            font-weight: bold; /* 주의사항 텍스트를 굵게 표시합니다. */
+        }
+    </style>
+</head>
+<body>
+    <h1>대전여자고등학교 재개발 지역 주의사항</h1>
+    <p>대전여자고등학교 재개발 지역이 근처에 있어 매우 위험할 수 있습니다. 다음은 주의해야 할 사항입니다:</p>
+    <button onclick="showCaution()">주의사항 보기</button>
+    <div id="cautionList" style="display:none;">
+        <ul>
+            <li>
+                <img src="https://tse3.mm.bing.net/th/id/OIP.F18WWentIHRn0QkG1_odBwHaHa?w=201&h=201&c=7&r=0&o=5&pid=1.7" alt="공사 현장 안전 거리">
+                <p>공사 현장으로부터의 안전 거리를 유지해 주세요.</p>
+            </li>
+            <li>
+                <img src="https://cdn-std-web-219-244.cdn-nhncommerce.com/gaja8282_godomall_com/data/goods/18/03/12/1000002146/1000002146_magnify_015.jpg" alt="허가되지 않은 공사 현장">
+                <p>허가되지 않은 공사 현장에 접근하지 마세요.</p>
+            </li>
+            <li>
+                <img src="https://www.nise.go.kr/eduCnts/images/sub04/img_31020201.png" alt="안전 모자, 안전 장갑">
+                <p>안전 모자, 안전 장갑 등 보호장비를 착용하세요.</p>
+            </li>
+            <li>
+                <img src="https://tse2.mm.bing.net/th/id/OIP.MaaY2VO7UDzfN9-fdP2u-gAAAA?rs=1&pid=ImgDetMain" alt="소음과 진동 발생 주의">
+                <p>근처에서는 소음과 진동이 발생할 수 있으니 주의하세요.</p>
+            </li>
+            <li>
+                <img src="https://tse3.mm.bing.net/th/id/OIP.vmpNTPf895s5GceQIoJT8QHaHa?rs=1&pid=ImgDetMain" alt="안전 시설 확인 및 대피 경로 숙지">
+                <p>공사 현장 주변의 안전 시설을 확인하고, 대피 경로를 숙지하세요.</p>
+            </li>
+            <li>
+                <img src="https://th.bing.com/th/id/R.058c6b7efb50dcc9b92597080b77d975?rik=WY7v8cydLbRJCA&riu=http%3a%2f%2fshop1.phinf.naver.net%2f20220407_46%2f1649310576107kuvQv_JPEG%2f50446421667318205_992576028.jpg&ehk=k8k6pnQ%2fXc00fFzG4%2fFkvneEXLL3s3ev8CePo3Zwm48%3d&risl=&pid=ImgRaw&r=0" alt="독성물질 노출 주의">
+                <p>화학물질이 사용될 수 있으므로 독성물질에 노출되지 않도록 주의하세요.</p>
+            </li>
+            <li>
+                <img src="https://jitanda.com/j/j278_10/tnimg_j278_10.png" alt="급박한 상황 발생시 괄할 당국 신고">
+                <p>급박한 상황이 발생하면 즉시 관할 당국에 신고하세요.</p>
+            </li>
+        </ul>
+    </div>
+    <script>
+        function showCaution() {
+            var cautionList = document.getElementById("cautionList");
+            cautionList.style.display = "block";
+        }
+        </script>
+        </body>
